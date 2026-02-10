@@ -2,10 +2,10 @@ import { test, expect } from '@playwright/test';
 
 test('has correct SEO metadata', async ({ page }) => {
     await page.goto('/');
-    await expect(page).toHaveTitle(/viandmo.com/i);
+    await expect(page).toHaveTitle(/Sťahovanie/i);
 
     const description = page.locator('meta[name="description"]');
-    await expect(description).toHaveAttribute('content', /Sťahovanie, upratovanie a tepovanie/i);
+    await expect(description).toHaveAttribute('content', /Sťahovanie/i);
 });
 
 test('navigation to pricing', async ({ page }) => {

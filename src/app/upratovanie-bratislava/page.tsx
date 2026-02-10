@@ -8,22 +8,22 @@ import Link from "next/link";
 import { ROUTES } from "@/lib/constants";
 
 export const metadata = {
-    title: "Upratovanie Bratislava – viandmo.com",
-    description: "Upratovanie bytov a firiem v BA. Hĺbkové upratovanie po rekonštrukcii, férové ceny, rýchly termín."
+    title: "Upratovanie Bratislava | Hĺbkové čistenie a upratovanie po rekonštrukcii",
+    description: "Profesionálne upratovanie bytov, domov a kancelárií v Bratislave. Špecializujeme sa na upratovanie po rekonštrukcii, umývanie okien a generálne upratovanie."
 };
 
 export default function CleaningBA() {
     return (
         <>
             <Hero
-                badge="Upratovanie Bratislava • čistý výsledok"
-                headline="Upratovanie v Bratislave — pravidelne aj hĺbkovo po rekonštrukcii."
-                sub="Landing pre Ads: jasná ponuka + ceny + dôkaz. Žiadne omáčky."
+                badge="Upratovanie Bratislava • Generálne upratovanie"
+                headline="Upratovanie bytov a firiem v Bratislave — precízne a spoľahlivo."
+                sub="Hľadáte upratovanie po rekonštrukcii alebo pravidelné čistenie kancelárií? Náš tím zabezpečí dokonalú čistotu vašich priestorov."
                 bullets={[
-                    "Byty • kancelárie • spoločné priestory",
-                    "Hĺbkové upratovanie po stavbe",
-                    "Rýchla odpoveď a termín",
-                    "BA + okolie"
+                    "Hĺbkové upratovanie po rekonštrukcii",
+                    "Upratovanie kancelárií a firiem",
+                    "Umývanie okien a výkladov",
+                    "Pravidelné upratovanie domácností"
                 ]}
             />
 

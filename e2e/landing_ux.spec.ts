@@ -35,7 +35,7 @@ test.describe("Landing Page UI/UX", () => {
             // 1. Specific H1
             const h1 = page.locator("h1");
             await expect(h1).toBeVisible();
-            await expect(h1).toContainText(/Sťahovanie/i);
+            await expect(h1).toContainText(/Sťahovanie bytov a firiem/i);
 
             // 2. Visible Call Action
             const callBtn = page.locator("a[data-evt='click_call']").first();

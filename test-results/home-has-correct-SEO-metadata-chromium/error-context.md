@@ -1,0 +1,197 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Domov" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]:
+          - img "viandmo.com" [ref=e6]
+          - generic [ref=e7]:
+            - strong [ref=e8]: viandmo.com
+            - generic [ref=e9]: Sťahovanie • Čistenie
+      - navigation [ref=e10]:
+        - link "Cenník" [ref=e11] [cursor=pointer]:
+          - /url: /cennik
+        - link "Zavolať" [ref=e12] [cursor=pointer]:
+          - /url: tel:+421911275755
+  - main [ref=e13]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Sťahovanie Bratislava • Upratovanie • Tepovanie
+        - heading "Profesionálne sťahovanie a upratovanie v Bratislave — bezpečne, rýchlo a za férovú cenu." [level=1] [ref=e19]
+        - paragraph [ref=e20]: Hľadáte spoľahlivú firmu? Ponúkame kompletné sťahovacie služby, vypratávanie a hĺbkové čistenie. Získajte nezáväznú cenovú ponuku do 24 hodín.
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - link "Zavolať teraz" [ref=e23] [cursor=pointer]:
+              - /url: tel:+421911275755
+            - link "WhatsApp" [ref=e24] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?phone=421911275755
+              - strong [ref=e25]: WhatsApp
+            - link "Nezáväzný dopyt" [ref=e26] [cursor=pointer]:
+              - /url: /dopyt
+          - generic [ref=e27]:
+            - generic [ref=e28]: • Transparentné ceny
+            - generic [ref=e29]: • Poistenie
+            - generic [ref=e30]: • Žiadne skryté poplatky
+      - generic [ref=e31]:
+        - strong [ref=e32]: Prečo práve my
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - generic [ref=e37]: Sťahovanie bytov, domov a firiem
+          - listitem [ref=e38]:
+            - generic [ref=e40]: Vypratávanie a odvoz odpadu
+          - listitem [ref=e41]:
+            - generic [ref=e43]: Hĺbkové tepovanie sedačiek a kobercov
+          - listitem [ref=e44]:
+            - generic [ref=e46]: Pôsobíme v Bratislave a okolí (SC/PK/MA)
+        - separator [ref=e47]
+        - generic [ref=e48]: "Tip: Vieme byť u teba už do 60 minút v prípade havarijných situácií alebo urgentného upratovania."
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - heading "Vyber si službu" [level=2] [ref=e51]
+        - generic [ref=e52]: Každá služba má svoju vlastnú landing URL pre Google Ads (vyšší Quality Score = nižší CPC).
+      - generic [ref=e54]:
+        - link "Sťahovanie Bratislava Byty • Domy • Firmy • Ťažké bremená" [ref=e55] [cursor=pointer]:
+          - /url: /stahovanie-bratislava
+          - strong [ref=e56]: Sťahovanie Bratislava
+          - generic [ref=e57]: Byty • Domy • Firmy • Ťažké bremená
+        - link "Upratovanie Bratislava Byty • Kancelárie • Po rekonštrukcii" [ref=e58] [cursor=pointer]:
+          - /url: /upratovanie-bratislava
+          - strong [ref=e59]: Upratovanie Bratislava
+          - generic [ref=e60]: Byty • Kancelárie • Po rekonštrukcii
+        - link "Tepovanie Bratislava Sedačky • Matrace • Koberce" [ref=e61] [cursor=pointer]:
+          - /url: /tepovanie-bratislava
+          - strong [ref=e62]: Tepovanie Bratislava
+          - generic [ref=e63]: Sedačky • Matrace • Koberce
+    - generic [ref=e64]:
+      - heading "Mini cenník (ľudia chcú vedieť cenu hneď)" [level=2] [ref=e66]
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - strong [ref=e71]: Mini
+              - generic [ref=e72]: od 69 €
+            - generic [ref=e73]: Malé presuny, 1–2 hod, rýchlo.
+            - list [ref=e75]:
+              - listitem [ref=e76]: Dodávka + posádka
+              - listitem [ref=e77]: Férové podmienky
+              - listitem [ref=e78]: BA mesto
+            - link "Chcem ponuku" [ref=e80] [cursor=pointer]:
+              - /url: /dopyt
+              - strong [ref=e81]: Chcem ponuku
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - strong [ref=e84]: Štandard
+              - generic [ref=e85]: od 99 €
+            - generic [ref=e86]: Byt / kancelária, najčastejšia voľba.
+            - list [ref=e88]:
+              - listitem [ref=e89]: 2 pracovníci
+              - listitem [ref=e90]: Poistenie
+              - listitem [ref=e91]: Dohoda vopred
+            - link "Chcem ponuku" [ref=e93] [cursor=pointer]:
+              - /url: /dopyt
+              - strong [ref=e94]: Chcem ponuku
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - strong [ref=e97]: Profi
+              - generic [ref=e98]: individuálne
+            - generic [ref=e99]: Ťažké bremená, klavír, väčšie sťahovania.
+            - list [ref=e101]:
+              - listitem [ref=e102]: 3+ pracovníci
+              - listitem [ref=e103]: Logistika
+              - listitem [ref=e104]: Priorita termínu
+            - link "Chcem ponuku" [ref=e106] [cursor=pointer]:
+              - /url: /dopyt
+              - strong [ref=e107]: Chcem ponuku
+        - link "Otvor celý cenník" [ref=e109] [cursor=pointer]:
+          - /url: /cennik
+          - strong [ref=e110]: Otvor celý cenník
+    - generic [ref=e111]:
+      - heading "Recenzie a dôvera" [level=2] [ref=e113]
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - generic [ref=e117]: ★★★★★ 5.0
+          - paragraph [ref=e118]: "\"Prišli načas, všetko zabalené a presunuté bez poškodenia. Cena sedela s dohodou.\""
+          - generic [ref=e119]: Martina, Petržalka
+        - generic [ref=e120]:
+          - generic [ref=e121]: ★★★★★ 5.0
+          - paragraph [ref=e122]: "\"Rýchla komunikácia, férový prístup. Najviac cením transparentné podmienky.\""
+          - generic [ref=e123]: Peter, Ružinov
+        - generic [ref=e124]:
+          - generic [ref=e125]: ★★★★★ 5.0
+          - paragraph [ref=e126]: "\"Sťahovanie kancelárie bez výpadku. Plus bod za poistenie a čistotu práce.\""
+          - generic [ref=e127]: Firma, Senec
+    - generic [ref=e128]:
+      - generic [ref=e129]:
+        - heading "FAQ – bez skrytých príplatkov" [level=2] [ref=e130]
+        - generic [ref=e131]: Toto výrazne znižuje 'podozrivé' leady a zvyšuje konverziu (CRO).
+      - generic [ref=e133]:
+        - group [ref=e134]:
+          - generic "Ako rýchlo viete prísť? +" [ref=e135] [cursor=pointer]:
+            - generic [ref=e136]: Ako rýchlo viete prísť?
+            - generic [ref=e137]: +
+        - group [ref=e138]:
+          - generic "Je cena fixná? +" [ref=e139] [cursor=pointer]:
+            - generic [ref=e140]: Je cena fixná?
+            - generic [ref=e141]: +
+        - group [ref=e142]:
+          - generic "Viete naceniť z fotiek? +" [ref=e143] [cursor=pointer]:
+            - generic [ref=e144]: Viete naceniť z fotiek?
+            - generic [ref=e145]: +
+  - contentinfo [ref=e146]:
+    - generic [ref=e147]:
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - link "viandmo.com viandmo.com Sťahovanie • Čistenie" [ref=e150] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e151]:
+              - img "viandmo.com" [ref=e152]
+              - generic [ref=e153]:
+                - strong [ref=e154]: viandmo.com
+                - generic [ref=e155]: Sťahovanie • Čistenie
+          - generic [ref=e156]: Bratislava a okolie • Poistenie • Férové ceny vopred. Sme tvoj partner pre bezstarostné sťahovanie a upratovanie.
+        - generic [ref=e157]:
+          - link "Sťahovanie" [ref=e158] [cursor=pointer]:
+            - /url: /stahovanie-bratislava
+          - link "Upratovanie" [ref=e159] [cursor=pointer]:
+            - /url: /upratovanie-bratislava
+          - link "Tepovanie" [ref=e160] [cursor=pointer]:
+            - /url: /tepovanie-bratislava
+          - link "Cenník" [ref=e161] [cursor=pointer]:
+            - /url: /cennik
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - strong [ref=e164]: Kontaktuj nás
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - text: "Sťahovanie:"
+              - link "+421 911 275 755" [ref=e167] [cursor=pointer]:
+                - /url: tel:+421911275755
+            - generic [ref=e168]:
+              - text: "Upratovanie:"
+              - link "+421 918 895 730" [ref=e169] [cursor=pointer]:
+                - /url: tel:+421918895730
+            - generic [ref=e170]:
+              - text: "Email:"
+              - link "info@viandmo.com" [ref=e171] [cursor=pointer]:
+                - /url: mailto:info@viandmo.com
+            - link "Sleduj nás na Facebooku" [ref=e173] [cursor=pointer]:
+              - /url: https://www.facebook.com/viandmocom/
+        - generic [ref=e174]:
+          - strong [ref=e175]: Fakturačné údaje
+          - generic [ref=e177]:
+            - strong [ref=e178]: VI and MO s. r. o.
+            - generic [ref=e179]: Karpatské námestie 7770/10A, 831 06 Bratislava - Rača
+            - generic [ref=e180]:
+              - generic [ref=e181]: "IČO: 56 811 322"
+              - generic [ref=e182]: "DIČ: 2122461176"
+      - generic [ref=e184]:
+        - generic [ref=e185]: © 2026 viandmo.com. Všetky práva vyhradené.
+        - generic [ref=e186]:
+          - generic [ref=e187]: Bratislava + satelity (SC/PK/MA)
+          - generic [ref=e188]: •
+          - generic [ref=e189]: Vyrobené s ❤️ v BA
+  - alert [ref=e190]
+```

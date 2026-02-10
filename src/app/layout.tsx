@@ -7,10 +7,21 @@ import { Tracking } from "@/components/Tracking";
 
 export const metadata = {
   metadataBase: new URL("https://viandmo.com"),
-  title: "viandmo.com – Sťahovanie & Čistenie Bratislava",
-  description: "Sťahovanie, upratovanie a tepovanie v Bratislave a okolí. Férové ceny vopred, poistenie, rýchla odpoveď.",
-  keywords: ["stahovanie bratislava", "upratovanie bratislava", "tepovanie sedaciek", "stahovacia sluzba"],
-  applicationName: "viandmo PWA",
+  title: "Sťahovanie Bratislava | Lacné & Rýchle Sťahovanie Bytov, Domov a Firiem",
+  description: "Hľadáte spoľahlivé sťahovanie v Bratislave? VI&MO ponúka sťahovanie bytov, domov, kancelárií aj ťažkých bremien (klavíre). Férová cena vopred, poistenie, žiadne skryté poplatky. Zavolajte nám!",
+  keywords: [
+    "sťahovanie Bratislava",
+    "sťahovacia služba Bratislava",
+    "lacné sťahovanie",
+    "sťahovanie firiem Bratislava",
+    "vypratávanie bytov Bratislava",
+    "sťahovanie klavíra Bratislava",
+    "sťahovanie Petržalka",
+    "sťahovanie Ružinov",
+    "upratovanie po rekonštrukcii",
+    "tepovanie sedačiek Bratislava"
+  ],
+  applicationName: "viandmo Sťahovanie",
   manifest: "/manifest.webmanifest",
   appleWebApp: { capable: true, statusBarStyle: "default", title: "viandmo" },
   icons: {
@@ -37,6 +48,51 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="sk">
       <head>
         <meta name="apple-mobile-web-app-capable" content="yes" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "VI&MO - Sťahovanie a Upratovanie",
+              "image": "https://viandmo.com/branding_banner.png",
+              "telephone": "+421911275755",
+              "email": "info@viandmo.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Bratislava",
+                "addressLocality": "Bratislava",
+                "postalCode": "82101",
+                "addressCountry": "SK"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 48.1486,
+                "longitude": 17.1077
+              },
+              "url": "https://viandmo.com",
+              "priceRange": "€€",
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "07:00",
+                "closes": "20:00"
+              },
+              "sameAs": [
+                "https://www.facebook.com/viandmo",
+                "https://www.instagram.com/viandmo"
+              ]
+            })
+          }}
+        />
       </head>
       <body>
         <Header />

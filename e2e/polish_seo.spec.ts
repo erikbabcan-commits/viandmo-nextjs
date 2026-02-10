@@ -6,7 +6,7 @@ test.describe("Category 5: SEO & Meta Audits", () => {
     });
 
     test("page title should be descriptive for SEO", async ({ page }) => {
-        await expect(page).toHaveTitle(/viandmo.com – Sťahovanie & Čistenie Bratislava/);
+        await expect(page).toHaveTitle(/Sťahovanie Bratislava/);
     });
 
     test("meta description should be present and valid length", async ({ page }) => {

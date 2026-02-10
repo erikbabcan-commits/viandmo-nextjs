@@ -8,22 +8,22 @@ import Link from "next/link";
 import { ROUTES } from "@/lib/constants";
 
 export const metadata = {
-    title: "Sťahovanie Bratislava – viandmo.com",
-    description: "Bezpečné sťahovanie v Bratislave do 24 hodín. Férové ceny vopred, poistenie, WhatsApp nacenenie."
+    title: "Sťahovanie Bratislava | Lacné sťahovanie bytov a firiem",
+    description: "Profesionálne sťahovanie v Bratislave. Sťahujeme byty, domy, kancelárie aj klavíre. Vypratávanie, montáž nábytku a odvoz na zberný dvor. Cenník online."
 };
 
 export default function MovingBA() {
     return (
         <>
             <Hero
-                badge="Sťahovanie Bratislava • do 24 hodín"
-                headline="Bezpečné sťahovanie v Bratislave — férová cena vopred, poistenie a čistá dohoda."
-                sub="Landing pre Google Ads: okamžite odpovie na cenu, dôveru a postup. To je presne to, čo znižuje CPC."
+                badge="Sťahovanie Bratislava • Non-stop služby"
+                headline="Sťahovanie bytov a firiem v Bratislave — bez stresu a skrytých poplatkov."
+                sub="Potrebujete presťahovať ťažké bremená, klavír alebo celú kanceláriu? Sme tu pre vás. Poistenie a obhliadka zdarma sú samozrejmosťou."
                 bullets={[
-                    "Byty, domy, firmy",
-                    "Poistenie majetku",
-                    "WhatsApp fotka = rýchla ponuka",
-                    "BA + satelity (SC/PK/MA)"
+                    "Sťahovanie bytov, domov, kancelárií",
+                    "Sťahovanie ťažkých bremien a klavírov",
+                    "Vypratávanie a ekologická likvidácia",
+                    "Balenie a montáž nábytku"
                 ]}
             />
 

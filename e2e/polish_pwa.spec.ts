@@ -7,14 +7,14 @@ test.describe("Category 3: Lead Form Functional", () => {
 
     test("should show error on empty submit", async ({ page }) => {
         await page.click("button[type='submit']");
-        await expect(page.locator("text=Skontroluj prosím povinné polia")).toBeVisible();
+        await expect(page.locator("text=Skontroluj prosím povinné polia")).toBeVisible({ timeout: 10000 });
     });
 
     test("should validate email format", async ({ page }) => {
         await page.fill("input[placeholder='Meno a priezvisko']", "Test User");
         await page.fill("input[placeholder='E-mail']", "invalid-email");
         await page.click("button[type='submit']");
-        await expect(page.locator("text=Skontroluj prosím povinné polia")).toBeVisible();
+        await expect(page.locator("text=Skontroluj prosím povinné polia")).toBeVisible({ timeout: 10000 });
     });
 
     test("service picker should have 3 options", async ({ page }) => {

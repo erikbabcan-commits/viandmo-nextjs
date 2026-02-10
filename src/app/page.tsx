@@ -11,14 +11,14 @@ export default function HomePage() {
   return (
     <>
       <Hero
-        badge="Bratislava & okolie • férové ceny vopred"
-        headline="Sťahovanie, upratovanie a tepovanie v BA regióne — rýchlo, bezpečne, bez skrytých poplatkov."
-        sub="Najlacnejší lead nevzniká najnižšou cenou. Vzniká dôverou, rýchlosťou a jasnými pravidlami. Preto to tu vidíš hneď."
+        badge="Sťahovanie Bratislava • Upratovanie • Tepovanie"
+        headline="Profesionálne sťahovanie a upratovanie v Bratislave — bezpečne, rýchlo a za férovú cenu."
+        sub="Hľadáte spoľahlivú firmu? Ponúkame kompletné sťahovacie služby, vypratávanie a hĺbkové čistenie. Získajte nezáväznú cenovú ponuku do 24 hodín."
         bullets={[
-          "Cena vopred (orientačne okamžite)",
-          "Poistenie a profesionálny prístup",
-          "WhatsApp fotka = rýchla ponuka",
-          "BA + satelity (SC/PK/MA)"
+          "Sťahovanie bytov, domov a firiem",
+          "Vypratávanie a odvoz odpadu",
+          "Hĺbkové tepovanie sedačiek a kobercov",
+          "Pôsobíme v Bratislave a okolí (SC/PK/MA)"
         ]}
       />
 
@@ -55,6 +55,42 @@ export default function HomePage() {
       <Section title="Recenzie a dôvera">
         <Reviews />
       </Section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Ako rýchlo viete prísť?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "V BA často do 24 hodín podľa dostupnosti. Pri urgentných presunoch vieme express slot."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Je cena fixná?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dohodneme pravidlá vopred (výjazd, poschodie, stojné, ťažké bremená). Orientačne hneď cez dopyt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Viete naceniť z fotiek?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Áno — najrýchlejšie je poslať fotku cez WhatsApp. Dostaneš presnejší odhad."
+                }
+              }
+            ]
+          })
+        }}
+      />
 
       <Section
         title="FAQ – bez skrytých príplatkov"

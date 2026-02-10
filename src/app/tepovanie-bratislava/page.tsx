@@ -8,22 +8,22 @@ import Link from "next/link";
 import { ROUTES } from "@/lib/constants";
 
 export const metadata = {
-    title: "Tepovanie Bratislava – viandmo.com",
-    description: "Tepovanie sedačiek, matracov a kobercov v BA. Hygiena, rýchly termín, férové ceny."
+    title: "Tepovanie Bratislava | Hĺbkové tepovanie sedačiek a kobercov",
+    description: "Profesionálne tepovanie v Bratislave. Čistenie sedačiek, matracov, kobercov a áut. Odstránenie škvŕn, roztočov a zápachu. Prídeme k vám domov."
 };
 
 export default function UpholsteryBA() {
     return (
         <>
             <Hero
-                badge="Tepovanie Bratislava • hygiena"
-                headline="Tepovanie v Bratislave — sedačky, matrace, koberce. Rýchlo a kvalitne."
-                sub="Landing pre Ads: jednoduché ceny, jasné pravidlá, jednoduchý dopyt."
+                badge="Tepovanie Bratislava • Čistenie čalúnenia"
+                headline="Hĺbkové tepovanie sedačiek a kobercov v Bratislave."
+                sub="Oživte svoj nábytok. Ponúkame profesionálne tepovanie sedacích súprav, matracov, kobercov a interiérov áut priamo u vás."
                 bullets={[
-                    "Sedačky • matrace • koberce",
-                    "Odstránenie zápachu",
-                    "Rýchly termín",
-                    "BA + okolie"
+                    "Tepovanie sedačiek a kresiel",
+                    "Čistenie matracov (odstránenie roztočov)",
+                    "Tepovanie kobercov a behúňov",
+                    "Ekologické čistiace prostriedky"
                 ]}
             />
 

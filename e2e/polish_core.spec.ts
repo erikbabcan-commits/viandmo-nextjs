@@ -47,7 +47,8 @@ test.describe("Category 2: Navigation & Routing", () => {
     });
 
     test("should navigate to moving service page", async ({ page }) => {
-        await page.click("text=Sťahovanie Bratislava");
+        // Target the link explicitly, not the badge
+        await page.locator("a.card", { hasText: "Sťahovanie Bratislava" }).click();
         await expect(page).toHaveURL(/\/stahovanie-bratislava/);
     });
 
