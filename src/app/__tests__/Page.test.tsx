@@ -11,8 +11,8 @@ describe('Home Page', () => {
     it('renders main content', () => {
         render(<Page />);
 
-        // Check for Hero text
-        const heroText = screen.getByText(/Sťahovanie, upratovanie a tepovanie v BA regióne/i);
+        // Check for Hero headline
+        const heroText = screen.getByText(/Profesionálne sťahovanie a upratovanie/i);
         expect(heroText).toBeDefined();
 
         // Check for Section title
