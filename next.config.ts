@@ -1,17 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    webpackBuildWorker: false
-  },
-  webpack(config) {
-    config.optimization.splitChunks = {
-      chunks: "all",
-      minSize: 20000,
-      maxAsyncRequests: 30,
-      maxInitialRequests: 30
-    };
-    return config;
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "viandmo.com",
+        pathname: "/wp-content/uploads/**",
+      },
+    ],
   },
   async headers() {
     return [
@@ -44,7 +41,7 @@ const nextConfig: NextConfig = {
           },
           {
             key: "Content-Security-Policy",
-            value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; font-src 'self'; connect-src 'self';",
+            value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' blob: data: https://viandmo.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self';",
           },
         ],
       },
