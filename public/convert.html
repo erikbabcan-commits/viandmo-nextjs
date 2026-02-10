@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <canvas id="canvas"></canvas>
+    <script>
+        const img = new Image();
+        img.onload = () => {
+            const canvas = document.getElementById('canvas');
+            canvas.width = img.width;
+            canvas.height = img.height;
+            const ctx = canvas.getContext('2d');
+            ctx.drawImage(img, 0, 0);
+            // Smaller quality or just default PNG
+            const dataUrl = canvas.toDataURL('image/png');
+            console.log("DATAURL_START");
+            console.log(dataUrl);
+            console.log("DATAURL_END");
+            document.body.innerText = "DONE";
+        };
+        img.src = "543373263_10239646113797846_8805653715475293264_n.jpg";
+    </script>
+</body>
+</html>
