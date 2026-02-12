@@ -9,7 +9,21 @@ import { ROUTES } from "@/lib/constants";
 
 export const metadata = {
     title: "Upratovanie Bratislava | Hĺbkové čistenie a upratovanie po rekonštrukcii",
-    description: "Profesionálne upratovanie bytov, domov a kancelárií v Bratislave. Špecializujeme sa na upratovanie po rekonštrukcii, umývanie okien a generálne upratovanie."
+    description: "Profesionálne upratovanie bytov, domov a kancelárií v Bratislave. Špecializujeme sa na upratovanie po rekonštrukcii, umývanie okien a generálne upratovanie.",
+    alternates: {
+        canonical: "https://viandmo.com/upratovanie-bratislava",
+    },
+    openGraph: {
+        title: "Upratovanie Bratislava | VI&MO",
+        description: "Profesionálne upratovanie bytov a firiem v Bratislave bez skrytých poplatkov.",
+        url: "https://viandmo.com/upratovanie-bratislava",
+        type: "website",
+    },
+    twitter: {
+        card: "summary",
+        title: "Upratovanie Bratislava | VI&MO",
+        description: "Profesionálne upratovanie bytov a firiem v Bratislave bez skrytých poplatkov.",
+    },
 };
 
 export default function CleaningBA() {

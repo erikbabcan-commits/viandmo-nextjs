@@ -9,7 +9,21 @@ import { ROUTES } from "@/lib/constants";
 
 export const metadata = {
     title: "Tepovanie Bratislava | Hĺbkové tepovanie sedačiek a kobercov",
-    description: "Profesionálne tepovanie v Bratislave. Čistenie sedačiek, matracov, kobercov a áut. Odstránenie škvŕn, roztočov a zápachu. Prídeme k vám domov."
+    description: "Profesionálne tepovanie v Bratislave. Čistenie sedačiek, matracov, kobercov a áut. Odstránenie škvŕn, roztočov a zápachu. Prídeme k vám domov.",
+    alternates: {
+        canonical: "https://viandmo.com/tepovanie-bratislava",
+    },
+    openGraph: {
+        title: "Tepovanie Bratislava | VI&MO",
+        description: "Profesionálne tepovanie sedačiek a kobercov v Bratislave bez skrytých poplatkov.",
+        url: "https://viandmo.com/tepovanie-bratislava",
+        type: "website",
+    },
+    twitter: {
+        card: "summary",
+        title: "Tepovanie Bratislava | VI&MO",
+        description: "Profesionálne tepovanie sedačiek a kobercov v Bratislave bez skrytých poplatkov.",
+    },
 };
 
 export default function UpholsteryBA() {

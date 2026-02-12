@@ -33,6 +33,31 @@ export const metadata = {
     index: true,
     follow: true,
   },
+  alternates: {
+    canonical: "https://viandmo.com",
+  },
+  openGraph: {
+    title: "Sťahovanie Bratislava | VI&MO",
+    description: "Profesionálne sťahovanie a upratovanie v Bratislave bez skrytých poplatkov.",
+    url: "https://viandmo.com",
+    siteName: "viandmo.com",
+    locale: "sk_SK",
+    type: "website",
+    images: [
+      {
+        url: "https://viandmo.com/branding_banner.png",
+        width: 1200,
+        height: 630,
+        alt: "viandmo - Sťahovanie a Upratovanie",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sťahovanie Bratislava | VI&MO",
+    description: "Profesionálne sťahovanie a upratovanie v Bratislave bez skrytých poplatkov.",
+    images: ["https://viandmo.com/branding_banner.png"],
+  },
 };
 
 export const viewport = {
@@ -48,6 +73,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="sk">
       <head>
         <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

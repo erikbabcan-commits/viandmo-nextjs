@@ -6,7 +6,21 @@ import { ROUTES } from "@/lib/constants";
 
 export const metadata = {
     title: "Cenník – Sťahovanie, Upratovanie & Tepovanie Bratislava | viandmo.com",
-    description: "Transparentný cenník sťahovacích a upratovacích služieb v Bratislave. Bez skrytých poplatkov – všetko dohodnuté vopred."
+    description: "Transparentný cenník sťahovacích a upratovacích služieb v Bratislave. Bez skrytých poplatkov – všetko dohodnuté vopred.",
+    alternates: {
+        canonical: "https://viandmo.com/cennik",
+    },
+    openGraph: {
+        title: "Cenník – VI&MO Bratislava",
+        description: "Transparentný cenník sťahovacích a upratovacích služieb v Bratislave.",
+        url: "https://viandmo.com/cennik",
+        type: "website",
+    },
+    twitter: {
+        card: "summary",
+        title: "Cenník – VI&MO Bratislava",
+        description: "Transparentný cenník sťahovacích a upratovacích služieb v Bratislave.",
+    },
 };
 
 export default function Pricing() {

@@ -9,7 +9,21 @@ import { ROUTES } from "@/lib/constants";
 
 export const metadata = {
     title: "Sťahovanie Bratislava | Lacné sťahovanie bytov a firiem",
-    description: "Profesionálne sťahovanie v Bratislave. Sťahujeme byty, domy, kancelárie aj klavíre. Vypratávanie, montáž nábytku a odvoz na zberný dvor. Cenník online."
+    description: "Profesionálne sťahovanie v Bratislave. Sťahujeme byty, domy, kancelárie aj klavíre. Vypratávanie, montáž nábytku a odvoz na zberný dvor. Cenník online.",
+    alternates: {
+        canonical: "https://viandmo.com/stahovanie-bratislava",
+    },
+    openGraph: {
+        title: "Sťahovanie Bratislava | VI&MO",
+        description: "Profesionálne sťahovanie v Bratislave bez skrytých poplatkov.",
+        url: "https://viandmo.com/stahovanie-bratislava",
+        type: "website",
+    },
+    twitter: {
+        card: "summary",
+        title: "Sťahovanie Bratislava | VI&MO",
+        description: "Profesionálne sťahovanie v Bratislave bez skrytých poplatkov.",
+    },
 };
 
 export default function MovingBA() {
